@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2025-09-10 22:19:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">8</td>
+                <td class="percentage">9.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2232538" target="_blank" class="news-link">已经有人拿到iPhone17手机壳了</a> [10] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=iPhone17%E7%B3%BB%E5%88%97%E5%80%BC%E4%B8%8D%E5%80%BC%E5%BE%97%E4%B9%B0" target="_blank" class="news-link">iPhone17系列值不值得买</a> [12] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1949081110194648646" target="_blank" class="news-link">苹果发布 iPhone 系列新机，市值却一夜蒸发 3700 亿元，传递出怎样的市场信号？</a> [13] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/634762720.html" target="_blank" class="news-link">苹果手机在国内是不是goat？</a> [25] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548330587900087818/" target="_blank" class="news-link">郑州富士康赶工苹果17员工发声</a> [28] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=20%2BUP%E4%B8%BB%E4%B8%80%E5%AD%97%E9%94%90%E8%AF%84%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A" target="_blank" class="news-link">20+UP主一字锐评苹果发布会</a> [28] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone%2017%E7%B3%BB%E5%88%97%E7%9A%8415%E4%B8%AA%E5%8D%87%E7%BA%A7" target="_blank" class="news-link">iPhone 17系列的15个升级</a> [29] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone%20Air%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">iPhone Air上手体验</a> [30] <font color='grey'>- 22时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.49%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%AA%E9%A3%92%E4%BA%86%EF%BC%81%E5%A5%B3%E7%94%9F%E5%86%9B%E8%AE%AD%E7%A7%80%E4%B8%AD%E5%9B%BD%E8%88%9E%E6%83%8A%E8%89%B3%E5%85%A8%E5%9C%BA" target="_blank" class="news-link">太飒了！女生军训秀中国舞惊艳全场</a> [8] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548411078120574490/" target="_blank" class="news-link">欧盟为何突然把制裁的矛头对准中国</a> [23] <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548405958125600809/" target="_blank" class="news-link">开罗宣言明确昭告台湾等归还中国</a> [27] <font color='grey'>- 22时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2141335" target="_blank" class="news-link">甲骨文埃里森财富单日暴增700亿美元，逼近马斯克首富宝座</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时18分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548439349672476713/" target="_blank" class="news-link">甲骨文埃里森挑战马斯克全球首富宝座</a> [14] <font color='grey'>- 22时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%8D%A3%E8%80%80%E9%AB%98%E7%AE%A1%E7%A7%B0Magic8%E6%98%AF%E7%9C%9FAI%E6%89%8B%E6%9C%BA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26pos%3D28%26filter_type%3Drealtimehot%26c_type%3D31%26q%3D%2523%25E8%258D%25A3%25E8%2580%2580%25E9%25AB%2598%25E7%25AE%25A1%25E7%25A7%25B0Magic8%25E6%2598%25AF%25E7%259C%259FAI%25E6%2589%258B%25E6%259C%25BA%2523%26lcate%3D5001%26cate%3D5001%26dgr%3D0%26band_rank%3D28%26flag%3D1%26stream_entry_id%3D31%26realpos%3D28%26display_time%3D1757513880%26pre_seqid%3D17575138803710195989125" target="_blank" class="news-link">荣耀高管称Magic8是真AI手机</a> [28] <font color='grey'>- 22时18分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.16%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2141430" target="_blank" class="news-link">美国8月PPI低于预期 三大期指集体走高 | 今夜看点</a> [12] <font color='grey'>- 22时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
