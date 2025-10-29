@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-10-29 14:33:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">5.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E8%8A%B1%E6%BB%91%E9%80%89%E6%89%8B%E5%9B%A0%E7%8E%A9%E5%81%B6%E9%81%AD%E5%9B%BD%E9%99%85%E6%BB%91%E8%81%94%E8%B0%83%E6%9F%A5%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D0%26realpos%3D8%26lcate%3D5001%26filter_type%3Drealtimehot%26c_type%3D31%26dgr%3D0%26cate%3D5001%26stream_entry_id%3D31%26band_rank%3D8%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E8%258A%25B1%25E6%25BB%2591%25E9%2580%2589%25E6%2589%258B%25E5%259B%25A0%25E7%258E%25A9%25E5%2581%25B6%25E9%2581%25AD%25E5%259B%25BD%25E9%2599%2585%25E6%25BB%2591%25E8%2581%2594%25E8%25B0%2583%25E6%259F%25A5%2523%26pos%3D8%26display_time%3D1761719569%26pre_seqid%3D17617195690390111316301" target="_blank" class="news-link">中国花滑选手因玩偶遭国际滑联调查</a> [8] <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31848618" target="_blank" class="news-link">美军航母摔飞机因“电磁攻击”？中国军号：想多了</a> [13] <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E5%A3%B0%E7%A7%B0%E6%97%A0%E5%8A%9B%E6%96%BD%E5%8E%8B%E4%B8%AD%E5%9B%BD%E6%9C%9B%E7%BE%8E%E5%87%BA%E6%89%8B%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26realpos%3D14%26lcate%3D5001%26filter_type%3Drealtimehot%26c_type%3D31%26dgr%3D0%26cate%3D5001%26stream_entry_id%3D31%26band_rank%3D14%26q%3D%2523%25E6%25B3%25BD%25E8%25BF%259E%25E6%2596%25AF%25E5%259F%25BA%25E5%25A3%25B0%25E7%25A7%25B0%25E6%2597%25A0%25E5%258A%259B%25E6%2596%25BD%25E5%258E%258B%25E4%25B8%25AD%25E5%259B%25BD%25E6%259C%259B%25E7%25BE%258E%25E5%2587%25BA%25E6%2589%258B%2523%26pos%3D14%26display_time%3D1761719569%26pre_seqid%3D17617195690390111316301" target="_blank" class="news-link">泽连斯基声称无力施压中国望美出手</a> [14] <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31850127" target="_blank" class="news-link">离谱！一个玩偶让美联社破防？中国花滑选手遭国际滑联调查</a> [15] <font color='grey'>- 14时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%BF%99%E5%B0%B1%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE%E7%9C%81%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D0%26realpos%3D30%26lcate%3D5001%26filter_type%3Drealtimehot%26c_type%3D31%26dgr%3D0%26cate%3D5001%26stream_entry_id%3D31%26band_rank%3D30%26q%3D%2523%25E8%25BF%2599%25E5%25B0%25B1%25E6%2598%25AF%25E4%25B8%25AD%25E5%259B%25BD%25E5%258F%25B0%25E6%25B9%25BE%25E7%259C%2581%2523%26pos%3D30%26display_time%3D1761719569%26pre_seqid%3D17617195690390111316301" target="_blank" class="news-link">这就是中国台湾省</a> [30] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">字节 张一鸣</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [牛客] <a href="https://www.nowcoder.com/discuss/812685560115376128" target="_blank" class="news-link">字节跳动-日常实习-面经</a> [19] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7566461338692619782/" target="_blank" class="news-link">马斯克为何称中国火箭5年追平SpaceX</a> [24] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2184392" target="_blank" class="news-link">芯片行业再迎利好？黄仁勋预告：本周访韩期间将宣布重大消息</a> [9] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1961814182115632287" target="_blank" class="news-link">老年人需要 AI 吗？当未来已来，我们能为长辈做些什么小事？</a> [10] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [虎扑] <a href="https://bbs.hupu.com/635397503.html" target="_blank" class="news-link">美国找工作现状</a> [15] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
